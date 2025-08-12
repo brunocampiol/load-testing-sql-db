@@ -1,0 +1,11 @@
+--SELECT COUNT(*) FROM Customers;
+SELECT TOP 100 * FROM Customers;
+
+--SELECT COUNT(*) FROM Products;
+SELECT TOP 100 * FROM Products;
+
+--SELECT COUNT(*) FROM Orders;
+SELECT TOP 100 * FROM Orders;
+
+--SELECT COUNT(*) FROM OrderItems;
+SELECT TOP 100 * FROM OrderItems;

@@ -1,0 +1,11 @@
+{
+  "server": "localhost",
+  "port": 1433,
+  "database": "LoadTestingDb",
+  "username": "your_username",
+  "password": "your_password",
+  "connectionTimeout": 30,
+  "maxPoolSize": 50,
+  "minPoolSize": 1,
+  "encrypt": false
+}

@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "Create 1_000": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode Create --records 1000"
+    },
+    "Create 100_000": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode Create --records 100000"
+    },
+    "Create 1_000_000": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode Create --records 1000000"
+    },
+    "Create 10_000_000": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode Create --records 10000000"
+    },
+    "Insert": {
+      "commandName": "Project",
+      "commandLineArgs": "--mode Insert"
+    }
+  }
+}
