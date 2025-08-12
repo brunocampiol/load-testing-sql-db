@@ -1,4 +1,4 @@
-# LoadTestingDb Project
+# SQL load testing project
 
 This project is designed to facilitate load testing for a Microsoft SQL Server 2022 database. The primary goal is to create a local database named **LoadTestingDb** that can efficiently handle millions or billions of rows.
 
