@@ -1,0 +1,31 @@
+erDiagram
+    Customers {
+        UNIQUEIDENTIFIER ID PK
+        NVARCHAR Name
+        DATE DateOfBirth
+        DATETIME CreatedAt
+    }
+
+    Products {
+        UNIQUEIDENTIFIER ID PK
+        NVARCHAR ProductName
+        DECIMAL Price
+        DATETIME CreatedAt
+    }
+
+    Orders {
+        UNIQUEIDENTIFIER ID PK
+        UNIQUEIDENTIFIER CustomerId FK
+        DATETIME CreatedAt
+    }
+
+    OrderItems {
+        UNIQUEIDENTIFIER ID PK
+        UNIQUEIDENTIFIER OrderId FK
+        UNIQUEIDENTIFIER ProductId FK
+        INT Quantity
+    }
+
+    Customers ||--o{ Orders : "places"
+    Orders ||--o{ OrderItems : "contains"
+    Products ||--o{ OrderItems : "listed in"

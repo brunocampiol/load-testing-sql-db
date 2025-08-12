@@ -2,6 +2,10 @@
 
 This project is designed to facilitate load testing for a Microsoft SQL Server 2022 database. The primary goal is to create a local database named **LoadTestingDb** that can efficiently handle millions or billions of rows.
 
+<p align="center">
+  <img src="Assets/mermaid-er.jpg" alt="Entity Relationship" height="450px" />
+</p>
+
 ## Project Structure
 
 - **scripts/**: Contains SQL scripts for setting up the database, generating test data, and running tests.
